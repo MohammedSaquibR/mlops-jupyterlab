@@ -140,7 +140,7 @@ async function activate(lab, labShell, restorer, tracker, docManager) {
         // show list of commands in the commandRegistry
         // console.log(lab.commands.listCommands());
         widget = apputils_1.ReactWidget.create(React.createElement(LeftPanel_1.KubeflowKaleLeftPanel, { lab: lab, tracker: tracker, docManager: docManager, backend: backend, kernel: kernel, rokError: rokError }));
-        widget.id = 'kubeflow-kale/kubeflowDeployment';
+        widget.id = 'kubeflow-mlops/kubeflowDeployment';
         widget.title.iconClass = 'jp-kale-logo jp-SideBar-tabIcon';
         widget.title.caption = 'Kubeflow Pipelines Deployment Panel';
         widget.node.classList.add('kale-panel');
