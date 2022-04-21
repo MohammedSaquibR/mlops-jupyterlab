@@ -850,7 +850,7 @@ export class KubeflowKaleLeftPanel extends React.Component<IProps, IState> {
                 }}
                 className="kale-header"
               >
-                Mlops Deployment Panel {this.state.isEnabled}
+                AI/ML Operations Panel {this.state.isEnabled}
               </p>
             </div>
 
